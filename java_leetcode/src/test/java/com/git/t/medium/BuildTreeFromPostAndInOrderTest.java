@@ -1,6 +1,7 @@
-package com.git.t.easy;
+package com.git.t.medium;
 
 import com.git.t.common.TreeNode;
+import com.git.t.medium.BuildTreeFromPostAndInOrder;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
