@@ -1,6 +1,6 @@
 package com.git.ds.arrays;
 
-public class VectorGen<T extends Object> {
+public class VectorGen<T> {
     private Object[] mem = new Object[8];
     private int i = 0;
     private int maxSize = 7;
@@ -24,7 +24,7 @@ public class VectorGen<T extends Object> {
 
 
     public T get(int index) {
-        if (isInValidIndex(index)) new RuntimeException("not a valid index");
+        if (isInValidIndex(index)) throw  new RuntimeException("not a valid index");
         return (T) mem[index];
     }
 
@@ -33,7 +33,7 @@ public class VectorGen<T extends Object> {
     }
 
     public void delete(int index) {
-        if (isInValidIndex(index)) new RuntimeException("not a valid index ");
+        if (isInValidIndex(index)) throw new RuntimeException("not a valid index ");
         if (index == i) {
             mem[index] = null;
         } else {
