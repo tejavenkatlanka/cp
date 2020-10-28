@@ -1,4 +1,5 @@
 package com.git.t.common;
+
 public  class Node {
     public int val;
     public Node left;
@@ -16,5 +17,15 @@ public  class Node {
         left = _left;
         right = _right;
         next = _next;
+    }
+
+    @Override
+    public String toString() {
+        return "Node{" +
+                "val=" + val +
+                ", left=" + left +
+                ", right=" + right +
+                ", next=" + next +
+                '}';
     }
 }
