@@ -7,7 +7,6 @@ class SampleTest {
     @Test
     void hash() {
         Sample s=new Sample();
-
         s.hash();
     }
 }
