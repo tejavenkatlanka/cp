@@ -14,14 +14,15 @@ public class BoardGame {
 
         for (i = 0; i < m; i++) {
             if (board[i][0] == O)
-                bsfTravel(board, i, 0);
+                dfsTravel(board, i, 0);
             if (board[i][n - 1] == O)
-                bsfTravel(board, i, n - 1);
+                dfsTravel(board, i, n - 1);
         }
         for (j = 0; j < n; j++) {
-            if (board[0][j] == O) bsfTravel(board, 0, j);
+            if (board[0][j] == O)
+                dfsTravel(board, 0, j);
             if (board[m - 1][j] == O)
-                bsfTravel(board, m - 1, j);
+                dfsTravel(board, m - 1, j);
 
         }
         for (i = 0; i < m; i++) {
@@ -36,14 +37,14 @@ public class BoardGame {
         }
     }
 
-    private void bsfTravel(char[][] board, int i, int j) {
+    private void dfsTravel(char[][] board, int i, int j) {
         if ((i < 0 || i > board.length - 1 || j < 0 || j > board[0].length - 1 || board[i][j] != O)) {
             return;
         }
         board[i][j] = '*';
-        bsfTravel(board, i - 1, j);
-        bsfTravel(board, i + 1, j);
-        bsfTravel(board, i, j - 1);
-        bsfTravel(board, i, j + 1);
+        dfsTravel(board, i - 1, j);
+        dfsTravel(board, i + 1, j);
+        dfsTravel(board, i, j - 1);
+        dfsTravel(board, i, j + 1);
     }
 }
