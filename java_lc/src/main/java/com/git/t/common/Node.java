@@ -1,7 +1,12 @@
 package com.git.t.common;
 
+import java.util.List;
+
 public  class Node {
     public int val;
+
+    public List<Node> neighbors;
+
     public Node left;
     public Node right;
     public Node next;
