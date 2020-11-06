@@ -2,16 +2,18 @@ package com.git.t.common;
 
 import java.util.List;
 
-public  class Node {
+public class Node {
     public int val;
+    public Node next;
+    public Node random;
 
     public List<Node> neighbors;
 
     public Node left;
     public Node right;
-    public Node next;
 
-    public Node() {}
+    public Node() {
+    }
 
     public Node(int _val) {
         val = _val;
