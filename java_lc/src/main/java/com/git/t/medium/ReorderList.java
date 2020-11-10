@@ -21,7 +21,7 @@ public class ReorderList {
 
     public void merge(ListNode l1, ListNode l2) {
         while (l1 != null) {
-            ListNode n1 = l1.next, n2 = l2.next;
+              ListNode n1 = l1.next, n2 = l2.next;
             l1.next = l2;
 
             if (n1 == null)
