@@ -1,5 +1,6 @@
 package com.git.t.easy;
 
+import com.git.t.easy.number.SummaryRanges;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

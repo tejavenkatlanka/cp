@@ -1,4 +1,4 @@
-package com.git.t.easy;
+package com.git.t.easy.number;
 
 public class HammingDistance {
     public int hammingDistance(int x, int y) {

@@ -1,12 +1,11 @@
 package com.git.t.medium;
 
 import com.git.t.common.TreeNode;
-import com.git.t.easy.AddString;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class PathToSumTest {
 

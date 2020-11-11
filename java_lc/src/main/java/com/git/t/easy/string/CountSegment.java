@@ -1,4 +1,4 @@
-package com.git.t.easy;
+package com.git.t.easy.string;
 
 public class CountSegment {
 

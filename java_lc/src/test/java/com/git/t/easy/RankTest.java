@@ -1,5 +1,6 @@
 package com.git.t.easy;
 
+import com.git.t.easy.array.Rank;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

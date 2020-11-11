@@ -1,4 +1,4 @@
-package com.git.t.easy;
+package com.git.t.easy.number;
 
 import java.util.HashMap;
 import java.util.Map;

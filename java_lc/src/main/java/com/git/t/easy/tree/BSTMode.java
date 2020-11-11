@@ -1,4 +1,4 @@
-package com.git.t.easy;
+package com.git.t.easy.tree;
 
 import com.git.t.common.TreeNode;
 

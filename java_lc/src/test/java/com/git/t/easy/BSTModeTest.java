@@ -1,5 +1,6 @@
 package com.git.t.easy;
 
+import com.git.t.easy.tree.BSTMode;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;

@@ -1,5 +1,6 @@
 package com.git.t.easy;
 
+import com.git.t.easy.array.AssignCookie;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
