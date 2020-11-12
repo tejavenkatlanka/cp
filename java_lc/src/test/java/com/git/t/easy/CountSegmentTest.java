@@ -1,8 +1,9 @@
 package com.git.t.easy;
 
+import com.git.t.easy.string.CountSegment;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class CountSegmentTest {
 

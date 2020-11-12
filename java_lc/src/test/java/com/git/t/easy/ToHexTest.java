@@ -1,8 +1,8 @@
 package com.git.t.easy;
 
-import java.util.logging.Handler;
+import com.git.t.easy.number.ToHex;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class ToHexTest {
 
