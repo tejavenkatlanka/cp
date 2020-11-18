@@ -10,7 +10,7 @@ class PeakElementTest {
     void findPeakElement() {
     PeakElement peakElement=new PeakElement();
     assertEquals(2,peakElement.findPeakElement(new int[]{1,2,3,1}));
-        assertEquals(1,peakElement.findPeakElement(new int[]{ 1,2,1,3,5,6,4}));
+        assertEquals(5,peakElement.findPeakElement(new int[]{ 1,2,1,3,5,6,4}));
 
 
     }
