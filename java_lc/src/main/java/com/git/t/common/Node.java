@@ -6,6 +6,7 @@ public class Node {
     public int val;
     public Node next;
     public Node random;
+    public List<Node> children;
 
     public List<Node> neighbors;
 
