@@ -1,14 +1,14 @@
 package com.git.t.easy;
 
-import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
 
 class ArrangeCoinTest {
 
-    @Test
-    void arrangeCoins() {
-        ArrangeCoin coin =new ArrangeCoin();
-        assertEquals(2,coin.arrangeCoins(5));
-    }
+  @Test
+  void arrangeCoins() {
+    ArrangeCoin coin = new ArrangeCoin();
+    assertEquals(2, coin.arrangeCoins(5));
+  }
 }
