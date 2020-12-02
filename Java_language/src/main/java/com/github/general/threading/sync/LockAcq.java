@@ -1,14 +1,15 @@
 package com.github.general.threading.sync;
 
-public class LockAcq  implements Runnable{
-    CyclicMethod cyclicMethod;
+public class LockAcq implements Runnable {
 
-    public LockAcq(CyclicMethod cyclicMethod) {
-        this.cyclicMethod = cyclicMethod;
-    }
+  CyclicMethod cyclicMethod;
 
-    @Override
-    public void run() {
-        cyclicMethod.doJob();
-    }
+  public LockAcq(CyclicMethod cyclicMethod) {
+    this.cyclicMethod = cyclicMethod;
+  }
+
+  @Override
+  public void run() {
+    cyclicMethod.doJob();
+  }
 }
