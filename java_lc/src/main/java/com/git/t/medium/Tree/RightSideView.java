@@ -7,18 +7,25 @@ import java.util.List;
 import java.util.Queue;
 
 public class RightSideView {
+
   public List<Integer> rightSideView(TreeNode root) {
-    List<Integer> response=new ArrayList<>();
-    if(root==null) return  response;
-    Queue<TreeNode> treeNodes=new LinkedList<>();
+    List<Integer> response = new ArrayList<>();
+    if (root == null) {
+      return response;
+    }
+    Queue<TreeNode> treeNodes = new LinkedList<>();
     treeNodes.add(root);
-    while (!treeNodes.isEmpty()){
-      int size=treeNodes.size();
-      TreeNode node=null;
-      for(int i=0; i<size;i++){
+    while (!treeNodes.isEmpty()) {
+      int size = treeNodes.size();
+      TreeNode node = null;
+      for (int i = 0; i < size; i++) {
         node = treeNodes.poll();
-        if(node.left!=null) treeNodes.add(node.left);
-        if(node.right!=null) treeNodes.add(node.right);
+        if (node.left != null) {
+          treeNodes.add(node.left);
+        }
+        if (node.right != null) {
+          treeNodes.add(node.right);
+        }
       }
       response.add(node.val);
 

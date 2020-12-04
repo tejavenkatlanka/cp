@@ -23,9 +23,9 @@ public class Distribute {
         s[v] = true;
         num++;
       }
-        if (num == mid) {
-            return mid;
-        }
+      if (num == mid) {
+        return mid;
+      }
     }
     return num;
   }

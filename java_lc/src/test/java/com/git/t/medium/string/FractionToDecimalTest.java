@@ -1,16 +1,16 @@
 package com.git.t.medium.string;
 
-import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
 
 class FractionToDecimalTest {
 
-    @Test
-    void fractionToDecimal() {
-        FractionToDecimal fractionToDecimal=new FractionToDecimal();
+  @Test
+  void fractionToDecimal() {
+    FractionToDecimal fractionToDecimal = new FractionToDecimal();
 
-        assertEquals("0.5",fractionToDecimal.fractionToDecimal(1,2));
+    assertEquals("0.5", fractionToDecimal.fractionToDecimal(1, 2));
 
-    }
+  }
 }

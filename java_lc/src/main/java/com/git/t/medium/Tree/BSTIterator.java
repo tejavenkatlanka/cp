@@ -7,7 +7,7 @@ import java.util.List;
 public class BSTIterator {
 
   int i = 0, length = 0;
-  int anInt[];
+  int[] anInt;
 
   public BSTIterator(TreeNode root) {
     ArrayList<Integer> integers = new ArrayList<Integer>() {
@@ -22,9 +22,9 @@ public class BSTIterator {
   }
 
   private void preorderT(TreeNode node, List<Integer> integers) {
-      if (node == null) {
-          return;
-      }
+    if (node == null) {
+      return;
+    }
     preorderT(node.left, integers);
     integers.add(node.val);
     preorderT(node.right, integers);

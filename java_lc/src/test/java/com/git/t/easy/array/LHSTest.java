@@ -8,8 +8,8 @@ class LHSTest {
 
   @Test
   void findLHS() {
-    LHS lhs=new LHS();
+    LHS lhs = new LHS();
 
-    assertEquals(5,lhs.findLHS(new int[]{1,3,2,2,5,2,3,7}));
+    assertEquals(5, lhs.findLHS(new int[]{1, 3, 2, 2, 5, 2, 3, 7}));
   }
 }

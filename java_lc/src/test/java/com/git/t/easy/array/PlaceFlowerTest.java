@@ -9,9 +9,9 @@ class PlaceFlowerTest {
 
   @Test
   void canPlaceFlowers() {
-    PlaceFlower placeFlower=new PlaceFlower();
-    assertTrue(placeFlower.canPlaceFlowers(new int[]{1,0,0,0,1},1));
-    assertFalse(placeFlower.canPlaceFlowers(new int[]{1,0,0,0,1},2));
-    assertFalse(placeFlower.canPlaceFlowers(new int[]{1,0,0,0,0,1}, 2));
+    PlaceFlower placeFlower = new PlaceFlower();
+    assertTrue(placeFlower.canPlaceFlowers(new int[]{1, 0, 0, 0, 1}, 1));
+    assertFalse(placeFlower.canPlaceFlowers(new int[]{1, 0, 0, 0, 1}, 2));
+    assertFalse(placeFlower.canPlaceFlowers(new int[]{1, 0, 0, 0, 0, 1}, 2));
   }
 }

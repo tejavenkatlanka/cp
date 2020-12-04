@@ -4,13 +4,13 @@ import com.github.general.common.util.ThreadUtils;
 
 public class SyncBlockPrint implements Runnable {
 
-    public void run() {
-        ThreadUtils.printAllThreadDetails();
+  public void run() {
+    ThreadUtils.printAllThreadDetails();
 
-        synchronized (this) {
-            ThreadUtils.printAllThreadDetails();
-            ThreadUtils.printNumberFor(1000);
+    synchronized (this) {
+      ThreadUtils.printAllThreadDetails();
+      ThreadUtils.printNumberFor(1000);
 
-        }
     }
+  }
 }

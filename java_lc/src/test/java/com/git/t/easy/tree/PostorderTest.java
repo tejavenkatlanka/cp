@@ -10,7 +10,7 @@ class PostorderTest {
 
   @Test
   void postorder1() {
-  Postorder postorder=new Postorder();
-  assertEquals(List.of(1),postorder.postorder(new Node(1)));
+    Postorder postorder = new Postorder();
+    assertEquals(List.of(1), postorder.postorder(new Node(1)));
   }
 }

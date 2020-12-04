@@ -4,10 +4,10 @@ public class ToHex {
 
   public String toHex(int num) {
     StringBuilder builder = new StringBuilder();
-      if (num == 0) {
-          builder.append(num
-          );
-      }
+    if (num == 0) {
+      builder.append(num
+      );
+    }
     char[] map = "0123456789abcdef".toCharArray();
     while (num != 0) {
       builder.append(map[num & 15] + "");

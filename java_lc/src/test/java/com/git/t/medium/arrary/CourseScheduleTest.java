@@ -8,9 +8,9 @@ class CourseScheduleTest {
 
   @Test
   void canFinish() {
-    CourseSchedule courseSchedule=new CourseSchedule();
+    CourseSchedule courseSchedule = new CourseSchedule();
 
-    assertTrue(courseSchedule.canFinish(2,new int[][]{{1,0}}));
+    assertTrue(courseSchedule.canFinish(2, new int[][]{{1, 0}}));
 
   }
 }

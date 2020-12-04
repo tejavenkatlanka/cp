@@ -9,7 +9,7 @@ class LargestNumberTest {
 
   @Test
   void largestNumber() {
-    LargestNumber largestNumber=new LargestNumber();
-    assertEquals("210", largestNumber.largestNumber(new int[]{10,2}));
+    LargestNumber largestNumber = new LargestNumber();
+    assertEquals("210", largestNumber.largestNumber(new int[]{10, 2}));
   }
 }

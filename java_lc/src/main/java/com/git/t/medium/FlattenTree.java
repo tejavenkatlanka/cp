@@ -4,13 +4,13 @@ import com.git.t.common.TreeNode;
 
 public class FlattenTree {
 
+  private TreeNode prev = null;
+
   public void flatten(TreeNode root) {
     if (root != null) {
       flattenHelp(root, null);
     }
   }
-
-  private TreeNode prev = null;
 
   public void flattenv1(TreeNode root) {
     if (root == null) {
