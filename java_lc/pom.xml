@@ -23,6 +23,12 @@
       <scope>test</scope>
       <version>RELEASE</version>
     </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <version>RELEASE</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
   <groupId>com.git.t.cp</groupId>
   <modelVersion>4.0.0</modelVersion>

@@ -1,5 +1,6 @@
 package com.git.t.easy.number;
 
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.Arrays;
