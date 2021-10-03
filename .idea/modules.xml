@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/cp.iml" filepath="$PROJECT_DIR$/.idea/cp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_cf/java_cf.iml" filepath="$PROJECT_DIR$/java_cf/java_cf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java_language/java_language.iml" filepath="$PROJECT_DIR$/Java_language/java_language.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_lc/java_lc.iml" filepath="$PROJECT_DIR$/java_lc/java_lc.iml" />
+    </modules>
+  </component>
+</project>
