@@ -6,8 +6,7 @@ public class BitwiseANDofNumbersRange {
 
     while (n > m) {
       n = n & n - 1;
-      System.out.println(n);
-    }
+     }
     return m & n;
 
   }
